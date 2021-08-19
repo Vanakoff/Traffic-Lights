@@ -25,7 +25,6 @@ class ViewController: UIViewController {
         greenLightView.layer.cornerRadius = greenLightView.frame.size.width / 2
         
         startButton.layer.cornerRadius = 10
-        startButton.setTitle("Start!", for: .normal)
     }
     
     @IBAction func startButtonPressed() {
